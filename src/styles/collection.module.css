@@ -1,0 +1,53 @@
+.container {
+	padding-left: 1.5rem;
+}
+
+.img {
+	width: 20rem;
+	height: 30rem;
+	flex-shrink: 0;
+	margin-bottom: 4rem;
+}
+
+.collection_name {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.collection_name h2 {
+	margin: 0;
+	padding: 0.5rem;
+	color: #fff;
+	font-size: 0.8rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	letter-spacing: 0.09rem;
+	text-transform: uppercase;
+}
+
+.collection_name h3 {
+	margin: 0;
+
+	color: #fff;
+	font-size: 0.5rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.09rem;
+	text-transform: uppercase;
+}
+.collection_name button {
+	padding-top:1rem ;
+	color: #696969;
+	font-size: 0.75rem;
+	font-style: normal;
+	font-weight: 300;
+	line-height: normal;
+	letter-spacing: 0.09rem;
+	background: none;
+	border: none;
+	
+}
