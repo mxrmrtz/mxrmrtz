@@ -1,0 +1,18 @@
+{
+	"collection": [
+		{
+			"id": 0,
+			"name": "curves",
+			"headline": "Life is too random to be straight, so it’s okay to curve",
+			"info": "Some info about the thing and why i did it and how and some other bs",
+			"image": "/images/curves.png"
+		},
+		{
+			"id": 1,
+			"name": "colors",
+			"headline": "Life is too random to be MONOTONE, so it’s okay to HAVE COLORS",
+			"info": "Some info about the thing and why i did it and how and some other bs",
+			"image": "/images/colors.png"
+		}
+	]
+}
