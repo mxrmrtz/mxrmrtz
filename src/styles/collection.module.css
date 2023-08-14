@@ -1,9 +1,13 @@
 .container{
 	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .img {
-	width: 100%;
+	width: 90%;
 	height: 31rem;
 	flex-shrink: 0;
 	margin-bottom: 4rem;
@@ -30,7 +34,6 @@
 
 .collection_name h3 {
 	margin: 0;
-
 	color: #fff;
 	font-size: 0.5rem;
 	font-style: normal;
@@ -39,15 +42,14 @@
 	letter-spacing: 0.09rem;
 	text-transform: uppercase;
 }
-.collection_name button {
-	padding-top:1rem ;
+
+.btn {
 	color: #696969;
 	font-size: 0.75rem;
 	font-style: normal;
 	font-weight: 300;
 	line-height: normal;
 	letter-spacing: 0.09rem;
-	background: none;
-	border: none;
-	
+	margin-bottom: 2rem;
+	text-decoration: none;
 }

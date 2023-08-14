@@ -1,23 +1,23 @@
-import NavBar from "./components/NavBar";
-import collections from "./Data.json";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import "./App.css";
 import Collection from "./components/Collection";
+import CollectionList from "./components/CollectionsList";
+import HomePage from "./components/HomePage";
+import NavBar from "./components/NavBar";
 
 function App() {
 	return (
-	    <main className="main">
-      <NavBar />
-      {collections.collection.map((collection) => (
-        <Collection
-          key={collection.id}
-          name={collection.name}
-          headline={collection.headline}
-          info={collection.info}
-          image={collection.image} // Just pass the image path
-        />
-      ))}
-    </main>
+		<main className="main">
+			<NavBar />
+			<Router>
+				<Routes>
+					<Route path="/" element={<HomePage/>} />
+					<Route path="/collections" element={<CollectionList />} />
+					<Route path="/collections/:collectionId" element={<Collection />} />
+				</Routes>
+			</Router>
+		</main>
 	);
 }
 
