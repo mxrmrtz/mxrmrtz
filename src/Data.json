@@ -5,14 +5,24 @@
 			"name": "curves",
 			"headline": "Life is too random to be straight, so it’s okay to curve",
 			"info": "Some info about the thing and why i did it and how and some other bs",
-			"image": "/images/curves.png"
+			"image": "/images/curves-1.png",
+			"img": [
+				{
+					"url": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/curves-1.png",
+					"title": "example 1 of curves"
+				},
+				{
+					"url": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/curves-2.png",
+					"title": "example 2 of curves"
+				}
+			]
 		},
 		{
 			"id": 1,
 			"name": "colors",
 			"headline": "Life is too random to be MONOTONE, so it’s okay to HAVE COLORS",
 			"info": "Some info about the thing and why i did it and how and some other bs",
-			"image": "/images/colors.png"
+			"image": "/images/colors-1.png"
 		}
 	]
 }

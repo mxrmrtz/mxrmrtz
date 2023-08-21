@@ -2,6 +2,7 @@ import React from "react";
 import { useParams, Link } from "react-router-dom";
 import styles from "../styles/collection.module.css";
 import collections from "../Data.json";
+import Carousel from "./Carousel";
 
 const Collection = ({ id }) => {
 	const params = useParams();
@@ -23,7 +24,10 @@ const Collection = ({ id }) => {
 						Back
 					</Link>
 				) : null}
-				<img src={collection.image} className={styles.img} alt={collection.name} />
+
+				<a className={styles.a} href={`/collections/${collection.id}`}>
+					<img src={collection.image} className={styles.img} alt={collection.name} />
+				</a>
 				<div className={styles.collection_name}>
 					<h2>{collection.name}</h2>
 					<h3>{collection.headline}</h3>
