@@ -1,0 +1,18 @@
+{
+	"events": [
+		{
+			"id": "e1",
+			"title": "Curves",
+			"headline": "Life is too random to be straight, so it’s okay to curve",
+			"image": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/curves-1.png",
+			"description": "Some fun info about the product"
+		},
+		{
+			"id": "e2",
+			"title": "Colors",
+			"headline": "Life is too random to be MONOTONE, so it’s okay to HAVE COLORS",
+			"image": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/colors-1.png",
+			"description": "Some fun info about the product"
+		}
+	]
+}

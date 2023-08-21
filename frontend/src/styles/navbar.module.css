@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+	display: flex;
+	align-items: center;
+	padding: 0;
+}
+
+a {
+	padding-top: 3rem;
+	color: #fff;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 800;
+	line-height: normal;
+	letter-spacing: 0.105rem;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+a:hover{
+	color: #696969;
+
+}
+
