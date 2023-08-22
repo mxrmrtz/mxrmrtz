@@ -1,0 +1,19 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.article {
+	color: #fff;
+
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 2rem;
+}
+.article a {
+	color: #696969;
+}
