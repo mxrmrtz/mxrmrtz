@@ -1,4 +1,4 @@
-.container{
+.container {
 	height: 80vh;
 	width: auto;
 	display: flex;
@@ -7,7 +7,7 @@
 	align-items: center;
 }
 
-.a{
+.a {
 	display: flex;
 	justify-content: center;
 }
@@ -72,3 +72,9 @@
 	margin-bottom: 2rem;
 	text-decoration: none;
 }
+
+.carousel {
+	width: 350px;
+	height: 31rem;
+	flex-shrink: 0;
+	margin-bottom: 4rem;}

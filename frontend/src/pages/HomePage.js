@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import NavBar from "../components/NavBar";
 
 import styles from "../styles/homepage.module.css"
 

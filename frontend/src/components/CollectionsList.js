@@ -1,4 +1,3 @@
-import Collection from "./Collection";
 import styles from "../styles/collectionList.module.css";
 
 import { Link } from "react-router-dom";
