@@ -47,6 +47,9 @@
 	letter-spacing: 0.09rem;
 	text-transform: uppercase;
 }
+.collection_name div {
+	width: 100%;
+}
 
 
 .btn {
@@ -59,4 +62,12 @@
 	letter-spacing: 0.09rem;
 	padding-bottom: 2.5rem;
 	text-decoration: none;
+	
+}
+
+.img_wrapper{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }

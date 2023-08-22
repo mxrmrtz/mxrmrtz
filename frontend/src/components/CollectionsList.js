@@ -1,19 +1,23 @@
 import Collection from "./Collection";
 import styles from "../styles/collectionList.module.css";
 
-import { Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function CollectionList({ collections }) {
 	return (
 		<>
 			{collections.map((collection) => (
-				<main className={styles.container}>
-					<img src={collection.image} className={styles.img} alt={collection.title} />
+				<main key={collection.id} className={styles.container}>
+					<Link className={styles.img_wrapper} to={collection.id}>
+						<img src={collection.image} className={styles.img} alt={collection.title} />
+					</Link>
 					<div className={styles.collection_name}>
 						<h2>{collection.title}</h2>
-						<h3>{collection.headline}</h3>
+						<div>
+							<h3>{collection.headline}</h3>
+						</div>
 					</div>
-					<Link className={styles.btn} to={`/collections/${collection.id}`}>
+					<Link className={styles.btn} to={collection.id}>
 						Discover
 					</Link>
 				</main>
@@ -23,4 +27,3 @@ function CollectionList({ collections }) {
 }
 
 export default CollectionList;
-

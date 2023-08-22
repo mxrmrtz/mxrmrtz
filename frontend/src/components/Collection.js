@@ -1,19 +1,16 @@
 import styles from "../styles/collection.module.css";
-import { useParams } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 
-const CollectionItem = ({ name, headline, image, id }) => {
-	const params = useParams()
-
-
-	console.log(params)
+const CollectionItem = ({ collection}) => {
+	const data = collection.collection
 	return (
 		<main className={styles.container}>
-			<h1>{params.collectionId}</h1>
-			<img src={image} className={styles.img} alt={name} />
+			<Link className={styles.btn} to={"/collections"}>Back</Link>
+			<img src={data.image} className={styles.img} alt={data.title} />
 			<div className={styles.collection_name}>
-				<h2>{name}</h2>
-				<h3>{headline}</h3>
+				<h2>{data.title}</h2>
+				<h3>{data.headline}</h3>
 			</div>
 		</main>
 	);

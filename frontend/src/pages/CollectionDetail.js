@@ -9,12 +9,14 @@ const CollectionDetailPage = () => {
 
 export default CollectionDetailPage
 
-export async function loader(req,params){
-	const id = params.eventsId
-	const response = await fetch("http://localhost:8080/events" + id)
-	if(!response.ok){
-		throw json({message: "couldnt fetch details about collection"},{status: 500})
-	}else{
-		return response
+export async function loader({req, params}) {
+		console.log(params)
+
+	const id = params.collectionId;
+	const response = await fetch("http://localhost:8080/collections/" + id);
+	if (!response.ok) {
+	  throw json({ message: "couldn't fetch details about collection" }, { status: 500 });
+	} else {
+	  return response.json(); // Return the JSON response
 	}
-}
+  }

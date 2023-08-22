@@ -1,5 +1,6 @@
 .container{
 	height: 80vh;
+	width: auto;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -51,7 +52,7 @@
 .btn {
 	color: #696969;
 	position: absolute;
-	top: 2rem;
+	top: 1rem;
 	left: 2rem;
 	font-size: 0.75rem;
 	font-style: normal;

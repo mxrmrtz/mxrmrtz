@@ -3,7 +3,6 @@ import CollectionList from '../components/CollectionsList';
 
 function CollectionPage() {
 const data = useLoaderData()
-console.log(data)
 
   return (
       <CollectionList collections={data} />
