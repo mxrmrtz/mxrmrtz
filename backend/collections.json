@@ -9,11 +9,28 @@
 			"imageSlides": [
 				{
 					"url": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/curves-1.png",
-					"title": "curves example one"
+					"title": "curves example one",
+					"id": "e1"
 				},
 				{
 					"url": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/curves-2.png",
-					"title": "curves example two"
+					"title": "curves example two",
+					"id": "e2"
+				},
+				{
+					"url": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/curves-2.png",
+					"title": "curves example two",
+					"id": "e3"
+				},
+				{
+					"url": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/curves-2.png",
+					"title": "curves example two",
+					"id": "e4"
+				},
+				{
+					"url": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/curves-2.png",
+					"title": "curves example two",
+					"id": "e5"
 				}
 			]
 		},
@@ -26,7 +43,15 @@
 			"imageSlides": [
 				{
 					"url": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/colors-1.png",
-					"title": "colors example one"
+					"title": "colors example one", "id":"e1"
+				},
+				{
+					"url": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/colors-1.png",
+					"title": "colors example one", "id":"e2"
+				},
+				{
+					"url": "https://res.cloudinary.com/dy74bl28a/image/upload/v1692608524/mxrmrtz/colors-1.png",
+					"title": "colors example one", "id":"e2"
 				}
 			]
 		}
