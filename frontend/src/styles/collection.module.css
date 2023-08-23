@@ -74,7 +74,5 @@
 }
 
 .carousel {
-	width: 350px;
-	height: 31rem;
-	flex-shrink: 0;
-	margin-bottom: 4rem;}
+	margin: 0 20%;
+}

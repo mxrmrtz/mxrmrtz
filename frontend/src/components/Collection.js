@@ -11,7 +11,7 @@ const CollectionItem = ({ collection }) => {
 			</Link>
 			{/* <img src={data.image} className={styles.img} alt={data.title} /> */}
 			<div className={styles.carousel}>
-				<Carousel slides={data.imageSlides} parentWidth={350} />
+				<Carousel slides={data.imageSlides} />
 			</div>
 			<div className={styles.collection_name}>
 				<h2>{data.title}</h2>
