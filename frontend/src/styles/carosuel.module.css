@@ -1,21 +1,19 @@
-.slide_item {
-	min-height: 32rem;
-	min-width: 22rem;
-	padding: 40px;
-}
-.slide_item img {
-	height: 100%;
+.container {
 	width: 100%;
-	pointer-events: none;
+	height: 100%;
+		overflow: hidden;
 
 }
 
-.inner_carousel{
+.swiper_slide {
+	text-align: center;
+	/* Center slide text vertically */
 	display: flex;
-	width: 27rem;
-}
+	justify-content: center;
+	align-items: center;
+  }
 
-.container{
-	overflow: hidden;
-	cursor: grab;
-}
+  .swiper_slide img {
+	width: 22rem;
+	height: 34rem;
+  }

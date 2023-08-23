@@ -1,31 +1,25 @@
-import { useState, useRef, useEffect } from "react";
-import { motion } from "framer-motion";
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
 import styles from "../styles/carosuel.module.css";
+// import required modules
+import { Pagination } from "swiper/modules";
 
 const Carousel = ({ slides }) => {
-	const [width, setWidth] = useState(0);
-	const carosuelRef = useRef();
-
-	useEffect(() => {
-		setWidth(carosuelRef.current.scrollWidth - carosuelRef.current.offsetWidth);
-	}, []);
-
 	return (
-		<motion.div ref={carosuelRef} className={styles.container}>
-			<motion.div
-				drag="x"
-				dragConstraints={{ right: 0, left: -width }}
-				className={styles.inner_carousel}
-			>
-				{slides.map((image) => {
-					return (
-						<motion.div key={image.id} className={styles.slide_item}>
-							<img src={image.url} alt={image.title} />
-						</motion.div>
-					);
-				})}
-			</motion.div>
-		</motion.div>
+		<>
+			<Swiper pagination={true} modules={[Pagination]} className={styles.container}>
+				{slides.map((image) => (
+					<SwiperSlide className={styles.swiper_slide} key={image.id}>
+						<img id={image.id} src={image.url} alt={image.title} />
+					</SwiperSlide>
+				))}
+			</Swiper>
+		</>
 	);
 };
 

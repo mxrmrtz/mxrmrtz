@@ -5,6 +5,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+	overflow: hidden;
+
 }
 
 .a {
@@ -48,6 +50,17 @@
 	letter-spacing: 0.09rem;
 	text-transform: uppercase;
 }
+.collection_name p {
+	margin: 0;
+	color: #fff;
+	font-size: 0.6rem;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+	letter-spacing: 0.09rem;
+	text-transform: uppercase;
+	
+}
 
 .btn {
 	color: #696969;
@@ -74,5 +87,8 @@
 }
 
 .carousel {
-	margin: 0 20%;
+	height: 38rem;
+	width: 400px;
+	overflow: hidden;
+	padding-bottom: 2rem;
 }
